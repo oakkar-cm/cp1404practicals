@@ -13,7 +13,7 @@ Normally i used to watch lecture videos at home and i used to watch at my free t
 
 ## What are you doing well in the subject so far that you will keep doing?
 
-I am not getting a lot better in function and using looping. But I need to do a lot focus on function part.
+I am now getting a lot better in function and using looping. But I need to do a lot focus on function part.
 
 ## What do you need to stop or change in your work for this subject overall so far?
 
