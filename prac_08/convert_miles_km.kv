@@ -1,0 +1,36 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    BoxLayout: #for number input
+        orientation: 'horizontal'
+
+        TextInput:
+            id: input_number
+            text: ' '
+
+        BoxLayout: #for Up down box
+            orientation: 'vertical'
+
+            Button:
+                text: 'Up'
+                on_press: app.handle_increment(1)
+                color: (1,1,1,1)
+            Button:
+                text: 'Down'
+                on_press: app.handle_increment(-1)
+                color: (1,1,1,1)
+
+    BoxLayout: # button for convert
+        orientation: 'horizontal'
+
+        Button:
+            text: 'Convert miles to km'
+            color: (1,1,1,1)
+            on_press: app.handle_convert()
+
+    BoxLayout: #for output
+        orientation: 'horizontal'
+
+        Label:
+            color: (1,1,0,1)
+            text: app.output_label
