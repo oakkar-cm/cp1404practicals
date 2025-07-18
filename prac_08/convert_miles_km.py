@@ -33,5 +33,4 @@ class ConvertmilestokmApp(App):
         km = value * CONVERSION_FACTOR
         self.output_label = f"{km:.2f} km"
 
-
 ConvertmilestokmApp().run()
