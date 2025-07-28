@@ -1,0 +1,35 @@
+BoxLayout:
+    orientation: 'horizontal'
+
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint_x: 0.3
+        spacing: 2
+
+        Button:
+            text: 'Clear'
+            background_color: (0.3, 0.3, 0.3, 1)
+            color: (1, 1, 1, 1)
+            on_press: app.clear()
+
+        Button:
+            text: 'Greet'
+            background_color: (0.3, 0.3, 0.3, 1)
+            color: (1, 1, 1, 1)
+            on_press: app.greet()
+
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: 2
+
+        TextInput:
+            id: input_name
+            text: 'Jimbo'
+            multiline: False
+            font_size: 24
+
+        Label:
+            text: app.output_text
+            color: (1, 1, 0, 1)
+            bold: True
+            font_size: 24
